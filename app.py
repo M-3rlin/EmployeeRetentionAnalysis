@@ -15,11 +15,6 @@ try:
 
     # success message verifying online and connected
     st.success("System Status: Online | Connected to Local Server")
-    st.balloons()
-    
-    # preview data
-    st.subheader("Data Snapshot")
-    st.dataframe(df.head())
 
 except FileNotFoundError:
     st.error("Error: ensure 'clean_employee_data.csv' and 'model.pkl' are in this folder.")
@@ -121,3 +116,16 @@ if st.button("Predict Retention Risk"):
     else:
         st.success(f"LOW RISK: Employee is likely to STAY.")
         st.write(f"Confidence: {probability[0][0] * 100:.2f}%")
+
+    # VISUALISATION: Probability Chart
+    st.markdown("---")
+    st.subheader("Detailed Probability")
+    
+    # Creating a small table for the chart
+    probs = pd.DataFrame({
+        'Outcome': ['Stay', 'Leave'],
+        'Probability': probability[0]
+    })
+    
+    # Visualising the confidence levels: how sure the model is about this specific result
+    st.bar_chart(probs.set_index('Outcome'))

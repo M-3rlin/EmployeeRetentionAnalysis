@@ -80,7 +80,17 @@ cd EmployeeRetentionAnalysis
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Laucnh the app
+### 3. Launch the app
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## AI Implementation Note
+
+Transparency regarding tools used in this project:
+
+* **Logic Layer Assistance:** I utilised an LLM to assist in generating the **"Reference Employee Template"** (the dictionary mapping for the 35+ model features).
+* **The Justification:** Manually hard-coding a 35-feature dictionary with perfect one-hot encoding alignment is highly prone to syntax errors and was the reason behind a lot of debugging being needed. Using an LLM to generate the schema ensured the inference dataframe perfectly matched the training data structure.
+* **Code Integrity:** All core logic, data cleaning pipeline, and Streamlit architecture were manually engineered and verified. The AI was strictly used as a force multiplier for schema alignment.

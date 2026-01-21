@@ -10,7 +10,7 @@ st.markdown("---")
 
 # Load data and model directly
 try:
-    df = pd.read_csv('clean_employee_data.csv')
+    df = pd.read_csv('data/clean_employee_data.csv')
     model = joblib.load('model.pkl')
 
     # success message verifying online and connected
@@ -128,4 +128,5 @@ if st.button("Predict Retention Risk"):
     })
     
     # Visualising the confidence levels: how sure the model is about this specific result
+
     st.bar_chart(probs.set_index('Outcome'))

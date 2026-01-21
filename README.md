@@ -37,3 +37,15 @@ One of the hardest  hurdles was bridging the gap between a simple user input (7 
 ├── data/                      # Raw Material: clean_employee_data.csv
 ├── notebooks/                 # The Lab: Training, testing, and 92% accuracy validation
 └── docs/                      # The Pitch: Presentation drafts and business case
+```
+---
+
+## User Guide
+
+### Step 1. The Control Panel (Sidebar)
+The sidebar on the left acts as your "Scenario Builder." Adjust these sliders and dropdowns to simulate a specific employee profile.
+* **Age:** Ranges from 18 to 60.
+* **Daily Rate:** The employee's daily income level.
+* **Distance From Home:** Commute distance in km (Critical factor).
+* **Job Role & Department:** Select from standard corporate roles (e.g., Sales Executive, Research Scientist).
+* **Business Travel:** Toggle between Non-Travel, Rare, or Frequent travel.

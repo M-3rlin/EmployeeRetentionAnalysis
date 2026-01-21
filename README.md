@@ -106,6 +106,9 @@ Transparency regarding tools used in this project:
 * **[Streamlit](https://streamlit.io/)** – The framework used to deploy the web interface.
 * **[Jupyter Notebooks](https://jupyter.org/)** – Used for initial EDA and model training.
 
+**Data Source:**
+* **Kaggle:** [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) – The dataset used to train and validate the model.
+
 **Business Intelligence Sources:**
 * **Gallup (2019):** ["This Fixable Problem Costs U.S. Businesses $1 Trillion"](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx)
 

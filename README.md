@@ -58,7 +58,7 @@ Once parameters are set, click the **"Predict Retention Risk"** button in the ma
 * The app will process the input through the Random Forest model.
 * It will align your inputs with the 35+ training features using the backend reindexing logic.
 
-### 3. Interpreting the Results
+### Step 3. Interpreting the Results
 The system provides a two-tiered output:
 * **The Verdict:** A clear text alert indicating **HIGH RISK** (Red) or **LOW RISK** (Green).
 * **The Confidence Score:** A percentage showing how sure the model is (e.g., *Confidence: 72.5%*).

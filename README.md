@@ -63,3 +63,24 @@ The system provides a two-tiered output:
 * **The Verdict:** A clear text alert indicating **HIGH RISK** (Red) or **LOW RISK** (Green).
 * **The Confidence Score:** A percentage showing how sure the model is (e.g., *Confidence: 72.5%*).
 * **The Visualisation:** A bar chart breaks down the probability distribution, showing the exact weight the model assigned to "Stay" vs "Leave."
+
+---
+
+## How to Run Locally
+
+If you prefer to run this application on your own machine rather than the cloud, follow these steps.
+
+### 1. Clone the repository
+Open your terminal and run:
+```bash
+git clone https://github.com/M-3rlin/EmployeeRetentionAnalysis.git
+cd EmployeeRetentionAnalysis
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Laucnh the app
+```bash
+streamlit run app.py
+```

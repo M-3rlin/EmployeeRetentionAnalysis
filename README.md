@@ -49,3 +49,14 @@ The sidebar on the left acts as your "Scenario Builder." Adjust these sliders an
 * **Distance From Home:** Commute distance in km (Critical factor).
 * **Job Role & Department:** Select from standard corporate roles (e.g., Sales Executive, Research Scientist).
 * **Business Travel:** Toggle between Non-Travel, Rare, or Frequent travel.
+
+### Step 2. Generate a Prediction
+Once parameters are set, click the **"Predict Retention Risk"** button in the main window.
+* The app will process the input through the Random Forest model.
+* It will align your inputs with the 35+ training features using the backend reindexing logic.
+
+### 3. Interpreting the Results
+The system provides a two-tiered output:
+* **The Verdict:** A clear text alert indicating **HIGH RISK** (Red) or **LOW RISK** (Green).
+* **The Confidence Score:** A percentage showing how sure the model is (e.g., *Confidence: 72.5%*).
+* **The Visualisation:** A bar chart breaks down the probability distribution, showing the exact weight the model assigned to "Stay" vs "Leave."

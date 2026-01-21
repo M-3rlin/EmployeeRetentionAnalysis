@@ -94,3 +94,21 @@ Transparency regarding tools used in this project:
 * **Logic Layer Assistance:** I utilised an LLM to assist in generating the **"Reference Employee Template"** (the dictionary mapping for the 35+ model features).
 * **The Justification:** Manually hard-coding a 35-feature dictionary with perfect one-hot encoding alignment is highly prone to syntax errors and was the reason behind a lot of debugging being needed. Using an LLM to generate the schema ensured the inference dataframe perfectly matched the training data structure.
 * **Code Integrity:** All core logic, data cleaning pipeline, and Streamlit architecture were manually engineered and verified. The AI was strictly used as a force multiplier for schema alignment.
+
+---
+
+## References & Tech Stack
+
+**Core Technologies:**
+* **[Python 3.13](https://www.python.org/)** – The backbone of the application.
+* **[Pandas](https://pandas.pydata.org/)** – Used for data manipulation and the "Ghost Column" reindexing logic.
+* **[Scikit-Learn](https://scikit-learn.org/)** – Powering the Random Forest Classifier.
+* **[Streamlit](https://streamlit.io/)** – The framework used to deploy the web interface.
+* **[Jupyter Notebooks](https://jupyter.org/)** – Used for initial EDA and model training.
+
+**Business Intelligence Sources:**
+* **Gallup (2019):** ["This Fixable Problem Costs U.S. Businesses $1 Trillion"](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx)
+
+**Educational Resources:**
+* **GitHub Training:** [GitHub for Beginners (Playlist)](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f) – Referenced for version control and repository management.
+* **Streamlit Documentation:** [Deployment Guide](https://docs.streamlit.io/) – Referenced for CI/CD pipeline setup.

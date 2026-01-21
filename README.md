@@ -1,4 +1,7 @@
 # Employee Retention Intelligence System
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://employeeretentionanalysis-m3rlin.streamlit.app/)
+
+> **🔴 Live Demo:** [Click here to use the application](https://employeeretentionanalysis-m3rlin.streamlit.app/)
 
 > **"Why do our best people leave, and how can we stop them before they hand in their notice?"**
 >

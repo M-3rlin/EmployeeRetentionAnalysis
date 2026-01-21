@@ -114,4 +114,5 @@ Transparency regarding tools used in this project:
 
 **Educational Resources:**
 * **GitHub Training:** [GitHub for Beginners (Playlist)](https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f) – Referenced for version control and repository management.
+* **GitHub Documentation:** [Writing and Formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) – Referenced for Markdown syntax and documentation standards.
 * **Streamlit Documentation:** [Deployment Guide](https://docs.streamlit.io/) – Referenced for CI/CD pipeline setup.

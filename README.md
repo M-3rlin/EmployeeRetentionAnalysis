@@ -117,6 +117,14 @@ If I were to extend this project further, I would prioritise:
 
 ---
 
+## License & Citation
+
+This project is open-source under the **MIT License**.
+* **Usage:** You are free to fork, modify, and deploy this project.
+* **Attribution:** If you use this code in your own projects or research, you are required to credit **M-3rlin** and link back to this repository.
+
+---
+
 ## References & Tech Stack
 
 **Core Technologies:**

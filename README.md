@@ -97,6 +97,16 @@ Transparency regarding tools used in this project:
 
 ---
 
+## Ethical Considerations
+
+Deploying machine learning in Human Resources requires strict ethical governance. This project was built with the following principles in mind:
+
+* **No "Black Box" Decisions:** This tool is designed as a **Decision Support System**, not an automated decision-maker. It provides a probability score to alert managers, but human judgment is required for any intervention.
+* **Bias Awareness:** The model is trained on historical data (`IBM HR Analytics`), which may contain inherent biases regarding age, gender, or role. In a real-world deployment, this model would undergo "Fairness Auditing" (e.g., using AIF360) to ensure it does not penalise specific demographics.
+* **Data Privacy:** The dataset used is synthetic and anonymised. Real-world implementation would strictly adhere to **GDPR** and employee privacy agreements, ensuring that sensitive personal data (e.g., health, religion) is excluded from the training features.
+
+---
+
 ## References & Tech Stack
 
 **Core Technologies:**

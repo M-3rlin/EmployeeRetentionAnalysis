@@ -107,6 +107,16 @@ Deploying machine learning in Human Resources requires strict ethical governance
 
 ---
 
+## Future Roadmap
+
+If I were to extend this project further, I would prioritise:
+
+1.  **Explainability:** Integrating **SHAP (SHapley Additive exPlanations)** values to give individualised reasons for each prediction (e.g., *"This specific employee is at risk primarily due to lack of promotion, not pay"*).
+2.  **Hyperparameter Tuning:** Implementing `GridSearchCV` to further optimise the Random Forest limits and improve accuracy beyond the current baseline.
+3.  **Feature Engineering:** Creating interaction terms (e.g., `Tenure / Age Ratio`) to capture more complex behavioural patterns.
+
+---
+
 ## References & Tech Stack
 
 **Core Technologies:**

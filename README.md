@@ -31,6 +31,19 @@ One of the hardest  hurdles was bridging the gap between a simple user input (7 
 
 ---
 
+## Research Methodology
+
+To ensure a structured and rigorous analytical workflow, this project adheres to the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) methodology:
+
+1. **Business Understanding:** Framing the corporate attrition problem and defining the goal: predicting employee flight risk.
+2. **Data Understanding:** Conducting Exploratory Data Analysis (EDA), generating descriptive statistics, and running hypothesis testing to identify initial correlations (e.g., Monthly Income vs. Attrition).
+3. **Data Preparation:** Standardising formats, handling class imbalances via SMOTE, and executing One-Hot Encoding to prepare the schema for machine learning.
+4. **Modelling:** Training baseline (Logistic Regression) and advanced (Random Forest) classifiers to detect complex, non-linear relationships.
+5. **Evaluation:** Assessing model accuracy and limits, confirming that Random Forest provides the most reliable predictive engine.
+6. **Deployment:** Launching an interactive Streamlit application to provide real-time, accessible predictions for HR stakeholders.
+
+---
+
 ## Project Structure
 
 ```text
@@ -92,8 +105,9 @@ streamlit run app.py
 Transparency regarding tools used in this project:
 
 * **Logic Layer Assistance:** I utilised an LLM to assist in generating the **"Reference Employee Template"** (the dictionary mapping for the 35+ model features).
-* **The Justification:** Manually hard-coding a 35-feature dictionary with perfect one-hot encoding alignment is highly prone to syntax errors and was the reason behind a lot of debugging being needed. Using an LLM to generate the schema ensured the inference dataframe perfectly matched the training data structure.
-* **Code Integrity:** All core logic, data cleaning pipeline, and Streamlit architecture were manually engineered and verified. The AI was strictly used as a force multiplier for schema alignment.
+* **Statistical Testing & Debugging:** I also leveraged an AI assistant to generate the exact SciPy syntax for the two-sample T-test in the final cell of the Exploratory Data Analysis notebook, as well as to debug that specific cell to ensure the p-value was calculated and printed correctly.
+* **The Justification:** Manually hard-coding a 35-feature dictionary with perfect one-hot encoding alignment is highly prone to syntax errors and was the reason behind a lot of initial debugging. Using an LLM to generate the schema ensured the inference dataframe perfectly matched the training data structure. Similarly, using AI for the T-test syntax eliminated boilerplate errors and allowed me to focus purely on the statistical interpretation rather than troubleshooting library documentation.
+* **Code Integrity:** All core machine learning logic, the data cleaning pipeline, and the Streamlit architecture were manually engineered and verified. The AI was strictly used as a force multiplier for schema alignment, targeted syntax generation, and debugging.
 
 ---
 
